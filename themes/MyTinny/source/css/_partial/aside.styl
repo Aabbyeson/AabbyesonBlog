@@ -303,3 +303,23 @@
   &:hover span
     border-bottom  10px solid rgba(0, 0, 0, 1)
 
+
+//multi category
+.category-list
+font-size 0.9em
+padding 15px 20px
+.category-list-count
+  margin-left 8px
+  font-size 0.8em
+  color color-meta
+  &:before
+    content '('
+  &:after
+    content ')'
+
+ul, ol, dl
+  list-style none
+  ul, ol, dl
+    margin-left 20px
+    li.category-list-item:before
+      content '> '
